@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, button, input, select, textarea {
-  font-family: "Noto+Serif+SC"; }
+  font-family: "PingFangSC_R"; }
 
 a.tag.article-tag {
   font-size: 0.9rem;
@@ -303,7 +303,7 @@ a.tag.article-tag {
 
 code, pre {
   font-size: 0.85rem;
-  font-family: "Noto+Serif+SC"; }
+  font-family: "PingFangSC_R"; }
 
 figure.highlight {
   padding: 0;
@@ -330,7 +330,7 @@ figure.highlight {
     font-size: .8rem; }
     figure.highlight figcaption span {
       font-weight: 500;
-      font-family: "Noto+Serif+SC"; }
+      font-family: "PingFangSC_R"; }
     figure.highlight figcaption a {
       float: right;
       color: #9a9a9a; }
