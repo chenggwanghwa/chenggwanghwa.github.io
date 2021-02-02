@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body, button, input, select, textarea {
-  font-family: "PingFangSC_R"; }
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R"; }
 
 a.tag.article-tag {
   font-size: 0.9rem;
@@ -303,7 +303,7 @@ a.tag.article-tag {
 
 code, pre {
   font-size: 0.85rem;
-  font-family: "PingFangSC_R"; }
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R"; }
 
 figure.highlight {
   padding: 0;
@@ -330,7 +330,7 @@ figure.highlight {
     font-size: .8rem; }
     figure.highlight figcaption span {
       font-weight: 500;
-      font-family: "PingFangSC_R"; }
+      font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R"; }
     figure.highlight figcaption a {
       float: right;
       color: #9a9a9a; }
@@ -483,3 +483,25 @@ figure.highlight {
 .ins-section .ins-search-item:hover .ins-search-preview,
 .ins-section .ins-search-item.active .ins-search-preview {
   color: #fff; }
+
+@font-face {
+  font-family: 'Calluna Sans Regular';
+  src: local("calluna-sans-regular"), url("/font/calluna-sans-regular.woff2") format("woff2");
+  src: local("calluna-sans-regular"), url("/font/calluna-sans-regular.woff") format("woff");
+  src: local("calluna-sans-regular"), url("/font/calluna-sans-regular.svg") format("svg");
+  src: local("calluna-sans-regular"), url("/font/calluna-sans-regular.otf") format("opentype");
+  src: local("calluna-sans-regular"), url("/font/calluna-sans-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: regular;
+  font-display: fallback; }
+
+@font-face {
+  font-family: 'Calluna Sans Bold';
+  src: local("calluna-sans bold"), url("/font/calluna-sans-bold.woff2") format("woff2");
+  src: local("calluna-sans bold"), url("/font/calluna-sans-bold.woff") format("woff");
+  src: local("calluna-sans bold"), url("/font/calluna-sans-bold.svg") format("svg");
+  src: local("calluna-sans bold"), url("/font/calluna-sans-bold.otf") format("opentype");
+  src: local("calluna-sans bold"), url("/font/calluna-sans-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
+  font-display: fallback; }
