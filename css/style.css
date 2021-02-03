@@ -25,13 +25,15 @@ a.tag.article-tag {
     color: #f60c3e; } }
 
 .navbar-main {
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   background-color: #f60c3e;
   transition: 0.1s ease-in; }
   .navbar-main .navbar-logo {
     font-size: 1.5rem;
     font-weight: 600; }
   .navbar-main .navbar-item {
-    text-align: center; }
+    text-align: center;
+    background-color: #f60c3e; }
   .navbar-main a.navbar-item.is-active {
     color: #f60c3e; }
   .navbar-main .toc .navbar-dropdown {
@@ -39,15 +41,19 @@ a.tag.article-tag {
     overflow-y: auto; }
 
 .article .second-date-block {
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
+  font-weight: bold;
   color: gray;
   font-size: 0.8rem; }
 
 .article + .article {
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   padding-top: 1.5rem;
   border-top: 1px dotted #dbdbdb; }
 
 .article .article-title a,
 .article .article-meta a {
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   color: inherit;
   border-bottom: 1px dotted transparent; }
   .article .article-title a:hover,
@@ -55,7 +61,8 @@ a.tag.article-tag {
     border-bottom-color: black; }
 
 .article .article-meta {
-  font-size: .9rem;
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
+  font-size: .8rem;
   text-transform: uppercase; }
   @media screen and (max-width: 768px) {
     .article .article-meta {
@@ -81,12 +88,18 @@ a.tag.article-tag {
 .article .article-more-link a {
   font-size: 0.9rem;
   color: #ffffff;
-  background-color: #f60c3e;
+  width: 80px;
+  height: 50px;
+  background: #f60c3e;
+  border: 5px solid #f60c3e;
   border-radius: 5px; }
   .article .article-more-link a:hover {
     text-decoration: none;
-    color: #ffffff;
-    background-color: #f60c3e;
+    color: inherit;
+    width: 80px;
+    height: 50px;
+    background: #efefef;
+    border: 5px solid #efefef;
     border-radius: 5px; }
 
 .article .article-nav a {
@@ -212,8 +225,8 @@ a.tag.article-tag {
   margin-top: 3rem; }
 
 .comments {
-  margin-top: 3rem;
-  padding-top: 3rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
   border-top: 1px dotted #dbdbdb; }
   .comments > .title {
     font-weight: 300; }
@@ -243,10 +256,11 @@ a.tag.article-tag {
         border-bottom-color: darkgray; }
 
 .footer {
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   font-size: .8rem;
   background: transparent; }
   .footer .content {
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     border-top: 1px dotted #dbdbdb; }
 
 .searchbox {
@@ -314,7 +328,7 @@ a.tag.article-tag {
         margin: 0;
         width: 100%;
         height: 100%;
-        background: #f7f7f7; } }
+        background: #f60c3e; } }
 
 code, pre {
   font-size: 0.85rem;
