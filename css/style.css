@@ -256,6 +256,7 @@ a.tag.article-tag {
         border-bottom-color: darkgray; }
 
 .footer {
+  padding-top: 0rem;
   font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   font-size: .8rem;
   background: transparent; }
