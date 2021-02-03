@@ -32,8 +32,7 @@ a.tag.article-tag {
     font-size: 1.5rem;
     font-weight: 600; }
   .navbar-main .navbar-item {
-    text-align: center;
-    background-color: #f60c3e; }
+    text-align: center; }
   .navbar-main a.navbar-item.is-active {
     color: #f60c3e; }
   .navbar-main .toc .navbar-dropdown {
@@ -326,8 +325,7 @@ a.tag.article-tag {
         left: 0;
         margin: 0;
         width: 100%;
-        height: 100%;
-        background: #f60c3e; } }
+        height: 100%; } }
 
 code, pre {
   font-size: 0.85rem;
