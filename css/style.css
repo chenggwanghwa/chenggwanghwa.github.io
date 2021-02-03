@@ -51,12 +51,15 @@ a.tag.article-tag {
   padding-top: 1.5rem;
   border-top: 1px dotted #dbdbdb; }
 
-.article .article-title a,
+.article .article-title a {
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
+  font-weight: bold;
+  color: inherit; }
+
 .article .article-meta a {
   font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   color: inherit;
   border-bottom: 1px dotted transparent; }
-  .article .article-title a:hover,
   .article .article-meta a:hover {
     border-bottom-color: black; }
 
@@ -103,32 +106,26 @@ a.tag.article-tag {
     border-radius: 5px; }
 
 .article .article-nav a {
-  color: darkgray;
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.2rem;
   position: relative;
   display: inline-block; }
 
-.article .article-nav .article-nav-prev a {
-  padding-left: 1rem; }
-  .article .article-nav .article-nav-prev a:before {
+.article .article-nav .article-nav-next a {
+  padding-left: 1rem;
+  font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R"; }
+  .article .article-nav .article-nav-next a:before {
     top: 0;
     left: 0;
-    content: '<';
+    content: '❝';
+    color: #f60c3e;
     position: absolute; }
 
-.article .article-nav .article-nav-next {
-  text-align: right; }
-  .article .article-nav .article-nav-next a {
-    padding-right: 1rem; }
-    .article .article-nav .article-nav-next a:after {
-      top: 0;
-      right: 0;
-      content: '>';
-      position: absolute; }
-
 @media screen and (max-width: 768px) {
-  .article .article-nav .article-nav-prev,
   .article .article-nav .article-nav-next {
-    text-align: center; } }
+    text-align: relative; } }
 
 .article .caption {
   display: block;
@@ -243,7 +240,7 @@ a.tag.article-tag {
   padding: 1rem 1.5rem;
   border-left: 3px solid transparent; }
   .archive .article:hover {
-    border-left-color: black; }
+    border-left-color: #f60c3e; }
   .archive .article time {
     font-size: .9rem;
     color: darkgray; }
@@ -251,9 +248,10 @@ a.tag.article-tag {
     margin: 0; }
     .archive .article h6 a {
       color: inherit;
+      font-weight: blod;
       border-bottom: 1px dotted transparent; }
       .archive .article h6 a:hover {
-        border-bottom-color: darkgray; }
+        border-bottom-color: #f60c3e; }
 
 .footer {
   padding-top: 0rem;
