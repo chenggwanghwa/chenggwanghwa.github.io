@@ -3,13 +3,11 @@ body, button, input, select, textarea {
   font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
   font-size: 0.8rem;
   border-style: solid;
-  border-color: #f60c3e;
+  border-color: #ffffff;
   border-top-width: 0px;
   border-right-width: 8px;
   border-bottom-width: 8px;
-  border-left-width: 8px;
-  background: url("../../images/corner-bottom-left-red.svg") no-repeat 0% 100%, url("../../images/corner-bottom-right-red.svg") no-repeat 100% 100%;
-  background-size: 40px 40px; }
+  border-left-width: 8px; }
 
 a.tag.article-tag {
   font-size: 0.8rem;
@@ -26,7 +24,7 @@ a.tag.article-tag {
 
 .navbar-main {
   font-family: "Calluna Sans Regular", "Calluna Sans Bold", "PingFangSC_R";
-  background-color: #f60c3e;
+  background-color: #ffffff;
   transition: 0.1s ease-in; }
   .navbar-main .navbar-logo {
     font-size: 1.5rem;
@@ -502,7 +500,7 @@ figure.highlight {
 .ins-section .ins-search-item:hover,
 .ins-section .ins-search-item.active {
   color: #fff;
-  background: #3273dc; }
+  background: #f60c3e; }
 
 .ins-section .ins-search-item:hover .ins-slug,
 .ins-section .ins-search-item.active .ins-slug,
